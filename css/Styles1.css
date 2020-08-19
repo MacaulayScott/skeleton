@@ -66,15 +66,16 @@ li {
 .nav-button {
     height: 40px;
     width: 80px;
-    border-radius: 7px;
+    border-radius: 10px;
     border-color: none;
     background: none;
     margin-right: 10px;
     padding-right: 5px;
+    border: white solid 1px;
 }
 
 .nav-button:hover {
-    box-shadow: 0 0 7px;
+    box-shadow: 0 0 10px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -147,7 +148,9 @@ nav ul li ul a:hover {
 nav input[type=text] {
     padding: 7px;
     background-color: #1f1f1f;
-    border-radius: 12px;
+    border-radius: 15px;
+    height: 25px;
+    border: white solid 1px;
 }
 
 nav input[type=text]:hover {
@@ -268,33 +271,32 @@ form input[type=text]:focus {
     border-style: solid 1px black;
     margin: auto;
     margin: 150px;
+    box-shadow: #656b7248 0 0 40px;
+    border-radius: 10px;
+
 }
 
 .div-box {
     position: relative;
-    height: 99%;
-    width: 100%;
     box-shadow: rgba(70, 69, 69, 0.404) 0 0 15px;
     border-radius: 10px;
 }
 
 .text-div-two {
-    color: black
-    height 100px;
-    width: 300px;
-    font-size: 18px;
+    color: black;
+    width: 350px;
+    font-size: 16px;
     position: absolute;
-    right: 75%;
-    bottom: 15%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .text-div-three {
     color: black;
-    height: 100px;
     width: 350px;
     position: absolute;
-    bottom: 45%;
-    right: 40%;
+    bottom: 45px;
+    left: 800px;
     display: block;
     margin: auto;
     text-align: center;
@@ -318,11 +320,10 @@ form input[type=text]:focus {
 
 .text-div-four {
     color: black;
-    height: 100px;
     width: 350px;
     position: absolute;
-    bottom: 45%;
-    right: 5%;
+    bottom: 45px;
+    left: 1200px;
     display: block;
     margin: auto;
     text-align: center;
@@ -344,7 +345,7 @@ form input[type=text]:focus {
     height: 600px;
     width: 600px;
     position: absolute;
-    right: 0%;
+    right: 120px;
     bottom: 120px;
     pointer-events: none;
 }

@@ -238,8 +238,7 @@ form input[type=text]:focus {
 
 .section-two {
     position: relative;
-    width: 1235;
-    height: 327px;
+    width: 100%;
     background-color: white;
     border-style: solid 1px black;
     margin: auto;
@@ -256,25 +255,20 @@ form input[type=text]:focus {
 
 .text-div-two {
     color: black
-    height 100px;
     width: 300px;
     font-size: 18px;
     position: absolute;
-    right: 75%;
-    bottom: 15%;
+    bottom: -5%;
 }
 
 .text-div-three {
     color: black;
-    height: 100px;
     width: 350px;
-    position: absolute;
-    bottom: 45%;
-    right: 40%;
-    display: block;
-    margin: auto;
     text-align: center;
     line-height: 13px;
+    display: block;
+    margin: auto;
+
 }
 
 .blue-button {
@@ -321,7 +315,7 @@ form input[type=text]:focus {
     width: 600px;
     position: absolute;
     right: 0%;
-    bottom: 120px;
+    bottom: px;
     pointer-events: none;
 }
 
@@ -364,7 +358,7 @@ form input[type=text]:focus {
 }
 
 .font-size-eleven {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .polka {
@@ -379,7 +373,6 @@ form input[type=text]:focus {
 .blue-div {
     background: rgba(18, 58, 122, 0.8) url('https://github.githubassets.com/images/modules/site/patterns/contribution-graph.svg') ;
     width: 85%;
-    height: 120px;
     display: block;
     border-radius: 7px;
     color: white;
