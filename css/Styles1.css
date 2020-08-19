@@ -271,7 +271,7 @@ form input[type=text]:focus {
     border-style: solid 1px black;
     margin: auto;
     margin: 150px;
-    box-shadow: #656b7248 0 0 40px;
+    box-shadow: #656b72a2 0 0 40px;
     border-radius: 10px;
 
 }
@@ -315,7 +315,7 @@ form input[type=text]:focus {
 
 .blue-button:hover {
     background-color: rgb(0, 102, 255);
-    transition: all 500ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .text-div-four {
@@ -402,9 +402,10 @@ form input[type=text]:focus {
 }
 
 .blue-div {
-    background: rgba(18, 58, 122, 0.8) url('https://github.githubassets.com/images/modules/site/patterns/contribution-graph.svg') ;
-    width: 85%;
-    height: 120px;
+    background: rgb(0, 52, 136, 0.9) url('https://github.githubassets.com/images/modules/site/patterns/contribution-graph.svg') ;
+    background-size: 60%;
+    mix-blend-mode: multiply;
+    width: 83%;
     display: block;
     border-radius: 7px;
     color: white;
@@ -413,17 +414,19 @@ form input[type=text]:focus {
     margin-top: 30px;
     opacity: 100%;
     position: absolute;
-    right: 4%;
+    right: 5%;
+    
 }
 
 .text-div-five {
     position: absolute;
-    bottom: 10%;
-    right: 50%;
+    top: 25px;
+    right: 57%;
 }
 
 #line-height {
     line-height: 30px;
+    width: 600px;
 }
 
 .button-div {
@@ -444,7 +447,7 @@ form input[type=text]:focus {
 
 .blue-button-two:hover {
     background-color: rgb(0, 102, 255);
-    transition: all 500ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .green-label {
@@ -454,8 +457,8 @@ form input[type=text]:focus {
     font-size: 12px;
     border-radius: 10px;
     position: absolute;
-    left: -50px;
-    bottom: 80px;
+    left: -40px;
+    bottom: 115px;
     padding: 3px;
 }
 
@@ -485,16 +488,11 @@ form input[type=text]:focus {
 }
 
 .company-image {
-    height: 40px;
-    width: 80px;
-    padding: 25px;
+    height: 20px;
+    width: 60px;
+    padding: 39px;
 }
 
-.image-div {
-    display: inline-block;
-    height: 190px;
-    width:1200px ;
-    padding: 20px;
 }
 
 .text-div-six {
@@ -517,3 +515,59 @@ form input[type=text]:focus {
     bottom: 48%;
     border-radius: 17px;
 }
+
+#pic-row-one {
+    padding: 0px;
+    margin-left: 500px;
+
+}
+
+#pic-row-two {
+    padding: 0px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.border-button-two{
+    color: rgb(0, 162, 255);
+    font-size: medium;
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 162, 255);
+    
+}
+
+.border-button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .border-button-two span:after {
+    content: '&#8594';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 10px;
+    transition: 0.5s;
+  }
+
+  .border-button-two:hover span {
+    padding-left: 10px;
+  }
+
+  .border-button-two:hover {
+    color: rgb(0, 162, 255);
+    font-size: medium;
+    background-color: white;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid rgb(8, 114, 175);
+  }
