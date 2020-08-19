@@ -9,12 +9,15 @@ body {
 }
 
 nav {
-    max-width: 110%;
-    height: 60px;
+    max-width: 100%;
+    height: 50px;
     background-color: #24292e;
     padding-top: 15px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 
@@ -55,20 +58,30 @@ img {
 }
 
 li {
-    line-height: 40px;
+    line-height: 35px;
     
 
 }
 
-button {
-    border-radius: 3px;
-    border-color: white;
+.nav-button {
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    border-color: none;
+    background: none;
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 7px;
+    transition: all 0.2s ease-in-out;
 }
 
 nav ul {
     float: left;
     color: white;
-    padding: 0 30px;
+    padding: 20px;
 }
 
 nav ul li {
@@ -125,17 +138,20 @@ nav ul li ul a:hover {
     transition: all 0.5s;
     cursor: pointer;
 }
-
 ::placeholder {
-    color: rgb(182, 180, 180);
+    color: rgb(114, 109, 109);
     font-family:"Work Sans", sans-serif;
     font-size: 14px;   
 }
 
 nav input[type=text] {
     padding: 7px;
-    background-color: #656b72;
-    border-radius: 7px;  
+    background-color: #1f1f1f;
+    border-radius: 12px;
+}
+
+nav input[type=text]:hover {
+    box-shadow: #fff 0 0 10px;
 }
 .border {
     border-radius: 90%;
@@ -173,29 +189,37 @@ h1 {
         color: #fff;
 }
 
+.section-one {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    background: #2b3137 url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg) no-repeat;
+    background-size: cover;
+}
+
 .form-div {
     background-color: white;
     border: #fff;
-    border-radius: 7px;
-    height: 350px;
-    width: 350px;
-    padding: 50px 20px;
+    border-radius: 10px;
+    height: 420px;
+    width: 390px;
+    padding: 20px 25px;
     position: absolute;
-    right: 20%;
-    bottom: 4%;
+    right: 25%;
+    bottom: 8%;
 }
 
 .text-div-one {
     position: absolute;
     height: 100px;
-    width: 40%;
+    width: 450px;
     right: 52%;
     bottom: 55%;
 }
 
 .green-button {
     height: 60px;
-    width: 400px;
+    width: 390px;
     border-radius: 8px;
     background-color: rgb(27, 192, 27);
     color: white;
@@ -205,7 +229,7 @@ h1 {
 
 .green-button:hover {
     background-color: rgb(10, 134, 10);
-    transition: all 250ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .form {
@@ -484,8 +508,11 @@ form input[type=text]:focus {
     bottom: 14%;
 }
 
-.section-one {
-    position: relative;
-    background: #2b3137 url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg) no-repeat;
-    background-size:  cover;
+.absolute-search {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 76%;
+    bottom: 48%;
+    border-radius: 17px;
 }
