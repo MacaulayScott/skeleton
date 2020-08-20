@@ -45,10 +45,6 @@ nav a:hover {
     color: #656b72;
 }
 
-img {
-    padding-top: px;
-}
-
 .float-left {
     float: left;
 }
@@ -104,8 +100,7 @@ nav ul li ul {
    transition: all 0.25s ease-in-out;
    opacity: 0;
    width: 300px;
-   z-index: 10;
-   
+   z-index: 10;  
 }
 
 nav ul li:hover ul {
@@ -141,6 +136,7 @@ nav ul li ul a:hover {
     transition: all 0.5s;
     cursor: pointer;
 }
+
 ::placeholder {
     color: rgb(114, 109, 109);
     font-size: 14px;   
@@ -187,11 +183,11 @@ h1 {
 }
 
 .underline {
-        color: rgb(199, 198, 198);
+    color: rgb(199, 198, 198);
 }
 
 .underline:hover {
-        color: #fff;
+    color: #fff;
 }
 
 .section-one {
@@ -267,7 +263,6 @@ form input[type=text]:focus {
 
 .section-two {
     position: relative;
-    width: 1235;
     height: 327px;
     background-color: white;
     border-style: solid 1px black;
@@ -306,7 +301,7 @@ form input[type=text]:focus {
 
 .blue-button {
     color: white;
-    background-color: rgb(0, 162, 255);;
+    background-color: rgb(0, 162, 255);
     height: 50px;
     width: 150px;
     border-radius: 7px;
@@ -355,7 +350,7 @@ form input[type=text]:focus {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   
   .border-button span:after {
     content: '&#8594';
@@ -364,11 +359,11 @@ form input[type=text]:focus {
     top: 0;
     right: 10px;
     transition: 0.5s;
-  }
+}
 
   .border-button:hover span {
     padding-left: 10px;
-  }
+}
 
   .border-button:hover{
     color: rgb(0, 162, 255);
@@ -378,7 +373,7 @@ form input[type=text]:focus {
     width: 150px;
     border-radius: 7px;
     border: 1px solid rgb(8, 114, 175);
-  }
+}
 
 #para-one {
     line-height: 35px;
@@ -461,7 +456,6 @@ form input[type=text]:focus {
 
 .section-three {
     position: relative;
-    width: 1235;
     height: 327px;
     background-color:none;
     border-style: solid 1px black;
@@ -471,7 +465,7 @@ form input[type=text]:focus {
 
 .section-four {
     position: relative;
-    width: 1235;
+    width: 1235px;
     height: 327px;
     background-color:none;
     border-style: solid 1px black;
@@ -513,7 +507,6 @@ form input[type=text]:focus {
 }
 
 #pic-row-two {
-    padding: 0px;
     margin-left: 500px;
     margin-bottom: 100px;
 }
@@ -524,12 +517,13 @@ form input[type=text]:focus {
 
 .border-button-two{
     color: rgb(0, 162, 255);
-    font-size: medium;
+    font-size: 14px;
     background-color: white;
     height: 50px;
     width: 250px;
     border-radius: 7px;
     border: 1px solid rgb(0, 162, 255);
+    margin-bottom: 70px;
 }
 
 .border-button-two span {
@@ -537,26 +531,181 @@ form input[type=text]:focus {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   
-  .border-button-two span:after {
+.border-button-two span:after {
     content: '&#8594';
     position: absolute;
     opacity: 0;
     top: 0;
     right: 10px;
     transition: 0.5s;
-  }
+}
 
-  .border-button-two:hover span {
+.border-button-two:hover span {
     padding-left: 10px;
-  }
+}
 
-  .border-button-two:hover {
+.border-button-two:hover {
     color: rgb(0, 162, 255);
-    font-size: medium;
+    font-size: 14px;
     background-color: white;
     height: 50px;
     border-radius: 7px;
     border: 1px solid rgb(8, 114, 175);
-  }
+}
+
+.robot {
+    height: 700px;
+    width: 600px;
+    margin-top: 0px;
+}
+
+.trio {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    border: rgb(0, 102, 255, 0);
+}
+
+.trio:hover{
+    border: #73808d8a solid 1px;
+    border-radius: 7px;
+    box-shadow: #585d636e 0 0 15px;
+    transition: all 250ms ease-in-out;
+}
+
+.image-resize {
+    height: 190px;
+    width: 230px;
+    border-radius: 7px;
+}
+
+.quad {
+    box-shadow: #24292e5b 0 0 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.blue-image-button {
+    height: 50px;
+    width: 50px;
+    color: rgb rgba(255, 255, 255, 0);
+    background-color: rgba(25, 25, 211, 0);
+    position: absolute;
+    left: 510px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.hover-div:hover .blue-image-button {
+    height: 50px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgb(25, 84, 211);
+    position: absolute;
+    left: 510px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.blue-image-button-two {
+    height: 50px;
+    width: 50px;
+    color: rgb rgba(255, 255, 255, 0);
+    background-color: rgba(25, 25, 211, 0);
+    position: absolute;
+    left: 840px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.hover-div-two:hover .blue-image-button-two {
+    height: 50px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgb(25, 84, 211);
+    position: absolute;
+    left: 840px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.blue-image-button-three {
+    height: 50px;
+    width: 50px;
+    color: rgb rgba(255, 255, 255, 0);
+    background-color: rgba(25, 25, 211, 0);
+    position: absolute;
+    left: 1170px;
+    top: 3290px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.hover-div-three:hover .blue-image-button-three {
+    height: 50px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgb(25, 84, 211);
+    position: absolute;
+    left: 1170px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+}
+
+.blue-image-button-four {
+    height: 50px;
+    width: 50px;
+    color: rgb rgba(255, 255, 255, 0);
+    background-color: rgba(25, 25, 211, 0);
+    position: absolute;
+    left: 1500px;
+    top: 3290px;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.hover-div-four:hover .blue-image-button-four {
+    height: 50px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0.952);
+    background-color: rgb(25, 84, 211);
+    position: absolute;
+    left: 1500px;
+    top: 3210px;
+    border: none;
+    border-radius: 5px;
+    visibility: visible;
+}
+.anchor-span span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.anchor-span span:after {
+    content: '&#8594';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 20px;
+    transition: 0.5s;
+}
+
+.anchor-span:hover span {
+    padding-left: 10px;
+}
