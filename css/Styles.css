@@ -565,7 +565,7 @@ form input[type=text]:focus {
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 7px;
-    border: rgb(0, 102, 255, 0);
+    border: rgba(255, 255, 255,);
 }
 
 .trio:hover{
