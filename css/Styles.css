@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(255, 255, 255);
     font-family:"Work Sans", sans-serif;
 }
 
@@ -326,16 +326,6 @@ form input[type=text]:focus {
     line-height: 13px;
 }
 
-.border-button{
-    color: rgb(0, 162, 255);
-    font-size: medium;
-    background-color: white;
-    height: 50px;
-    width: 150px;
-    border-radius: 7px;
-    border: 1px solid rgb(0, 162, 255); 
-}
-
 .small-image {
     height: 600px;
     width: 600px;
@@ -343,6 +333,16 @@ form input[type=text]:focus {
     right: 120px;
     bottom: 120px;
     pointer-events: none;
+}
+
+.border-button{
+    color: rgb(0, 162, 255);
+    font-size: 14px;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 162, 255); 
 }
 
 .border-button span {
@@ -367,7 +367,7 @@ form input[type=text]:focus {
 
   .border-button:hover{
     color: rgb(0, 162, 255);
-    font-size: medium;
+    font-size: 14px;
     background-color: white;
     height: 50px;
     width: 150px;
@@ -708,4 +708,239 @@ form input[type=text]:focus {
 
 .anchor-span:hover span {
     padding-left: 10px;
+}
+
+.center-div {
+    text-align: center;
+}
+
+.border-button-two{
+    color: rgb(0, 162, 255);
+    font-size: 14px;
+    background-color: white;
+    height: 50px;
+    width: 400px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 162, 255); 
+}
+
+.border-button-two span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+  .border-button-two span:after {
+    content: '&#8594';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: 10px;
+    transition: 0.5s;
+}
+
+  .border-button-two:hover span {
+    padding-left: 10px;
+}
+
+.padding-ten {
+    padding: 10px;
+}
+
+.margin-seventy {
+    margin: 70px;
+    position: relative;
+}
+
+#verification {
+    height: 300px;
+    width: 500px;
+}
+
+.cloud-image {
+    height: 50px;
+    width: 50px;  
+}
+
+.box-shadow-div {
+    position: relative;
+    padding: 30px;
+    border-radius: 7px;
+    background-color: white;
+    display: block;
+    transition: all 500ms ease;
+    border: #656b7257 solid 1px;
+    margin-bottom: 70px;
+}
+
+.box-shadow-div:hover {
+    box-shadow: #5e535334 0 0 15px;
+    transition: all 300ms ease;
+}
+
+.float-right {
+    float: right;
+}
+
+.polkadot {
+    height: 150px;
+    width: 150px;
+    opacity: 40%;
+    position: absolute;
+    left: -0px;
+    top: -0px;
+    z-index: -1;
+    transition: all 200ms ease-in;
+    opacity: 0.1;
+}
+
+.polkadot-two {
+    height: 150px;
+    width: 150px;
+    opacity: 40%;
+    position: absolute;
+    right: -0px;
+    bottom: -0px;
+    z-index: -1;
+    transition: all 200ms ease-in;
+    opacity: 0.1;
+}
+
+.box-shadow-div:hover .polkadot {
+    transform: translate3d(-20px, -20px,0);
+}
+
+.box-shadow-div:hover .polkadot-two {
+    transform: translate3d(20px, 20px,0);
+}
+
+.circle-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 90%;
+    margin: 45px;
+    margin-bottom: 50px;
+}
+
+.circle-image:hover {
+    box-shadow: #6f778063 0 0 15px;
+}
+
+.margin-bottom-onehundred {
+    margin-bottom: 200px;
+}
+
+.margin-bottom-fifty {
+    margin-bottom: 50px;
+}
+
+.font-size-twelve {
+    font-size: 11px;
+}
+
+#section-margin {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.trio-two {
+    padding: 10px;
+    margin: 25px;
+    border-radius: 7px;
+    border: rgb(0, 102, 255, 0);
+}
+
+.trio-two:hover {
+    border: #73808d8a solid 1px;
+    border-radius: 7px;
+    box-shadow: #585d636e 0 0 15px;
+    transition: all 250ms ease-in-out;
+}
+
+#black-section {
+    background-color: #24292e;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-top-fifty {
+    margin-top: 50px;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.margin-ten {
+    margin: 10px;
+}
+
+.green-button-two {
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: rgb(27, 192, 27);
+    color: white;
+    font-size: 16px;
+    border-style: none;
+}
+
+.green-button-two:hover {
+    background-color: rgb(10, 134, 10);
+    transition: all 150ms ease-in-out;
+}
+
+.footer {
+    background-color: #c4ccd4;
+}
+
+.margin-thirty {
+    margin: 30px
+}
+
+.github-text-logo {
+    height: 50px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.orange {
+    color: orangered;
+}
+
+.blue {
+    color: rgb(64, 101, 224);
+}
+
+.purple {
+    color: purple;
+}
+
+.display-inline-footer {
+    display: inline;
+    padding: 30px;
+    list-style: none;
+}
+
+.font-size-eight {
+    font-size: 12px;
+}
+
+.padding-right-thirty {
+    padding-right: 30px;
+}
+
+.padding-left-thirty {
+    padding-left: 30px;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
